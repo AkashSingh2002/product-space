@@ -3,9 +3,12 @@ import React from 'react';
 function Div() {
   return (
     <div className="bg-gray-100 min-h-screen py-12 px-4">
-      <div className="container mx-auto">
-        <div className="flex flex-col items-center text-center">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Placed across 310+ Product Companies in India</h1>
+      <div className="container mx-auto flex items-center justify-between">
+        {/* Left Content */}
+        <div className="flex-1 text-left">
+          <h1 className="text-4xl font-bold text-gray-800 mb-4">
+            Placed across 310+ Product Companies in India
+          </h1>
           <p className="text-gray-600 mb-6">
             Our Alums have been placed across various established firms well known
             around the world.
@@ -14,25 +17,18 @@ function Div() {
             Kickstart Your Journey
           </button>
         </div>
-        <div className="grid grid-cols-4 gap-4 mt-12">
-          <div className="bg-white rounded shadow p-6 text-center">
-            <img src="https://www.adda247.com/images/logo.svg" alt="Adda247" className="h-16 w-16" />
-            <h3 className="text-lg font-semibold text-gray-800 mt-4">Adda247</h3>
-          </div>
-          <div className="bg-white rounded shadow p-6 text-center">
-            <img src="https://www.spyne.com/images/spyne-logo-white.svg" alt="Spyne" className="h-16 w-16" />
-            <h3 className="text-lg font-semibold text-gray-800 mt-4">Spyne</h3>
-          </div>
-          <div className="bg-white rounded shadow p-6 text-center">
-            <img src="https://www.swiggy.com/static/images/swiggy-logo-dark-background.png" alt="Swiggy" className="h-16 w-16" />
-            <h3 className="text-lg font-semibold text-gray-800 mt-4"> Swiggy</h3>
-          </div>
-          <div className="bg-white rounded shadow p-6 text-center">
-            <img src="https://www.zomato.com/images/zomato_logo.png" alt="Zomato" className="h-16 w-16" />
-            <h3 className="text-lg font-semibold text-gray-800 mt-4">Zomato</h3>
-          </div>
+        
+        {/* Right Image */}
+        <div className="flex-1 text-center">
+          <img
+            src="/div.png"  // Replace with your desired image
+            alt="Illustration"
+            className="w-full h-auto rounded-lg"
+          />
         </div>
       </div>
+      
+      
     </div>
   );
 }

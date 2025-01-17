@@ -2,9 +2,9 @@ import React from "react";
 
 const HowWeHelpSection = () => {
   return (
-    <section className="bg-gray-900 text-white py-12">
+    <section className=" py-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
-        <div className="grid grid-cols-2 gap-8 md:w-1/2">
+        {/* <div className="grid grid-cols-2 gap-8 md:w-1/2">
           <div className="flex flex-col items-center">
             <div className="bg-blue-500 p-4 rounded-full">
               <img
@@ -45,7 +45,8 @@ const HowWeHelpSection = () => {
             </div>
             <p className="mt-2 text-lg font-semibold">1000+</p>
           </div>
-        </div>
+        </div> */}
+        <img src="/sideicon.png" alt="side icons" />
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           <h2 className="text-2xl font-bold">We help you succeed in your career</h2>
           <p className="mt-4 text-gray-400">
