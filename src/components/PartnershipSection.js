@@ -3,12 +3,12 @@ import React from "react";
 const PartnershipSection = () => {
   return (
     <section className="bg-gray-100 py-8">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto flex items-center justify-between">
         <h2 className="text-lg font-semibold text-gray-700 mb-4">
           Trusted by Students from
         </h2>
         <div className="flex flex-wrap justify-center gap-8">
-          <img
+          {/* <img
             src="https://via.placeholder.com/150" // Replace with IIT Kharagpur logo URL
             alt="IIT Kharagpur"
             className="h-16"
@@ -22,7 +22,8 @@ const PartnershipSection = () => {
             src="https://via.placeholder.com/150" // Replace with IIT Roorkee logo URL
             alt="IIT Roorkee"
             className="h-16"
-          />
+          /> */}
+          <img src="/List.png" alt="list" />
         </div>
       </div>
     </section>
